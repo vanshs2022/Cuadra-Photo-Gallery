@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    font-family: "Salsa";
+    font-size: 30px;
+}
+
+#logo{
+    display: flex;
+    align-items: flex-end;
+    img{
+        margin-right: 40px;
+        height: 70px;
+    }
+}
+
+#eventinfo{
+    width: 60vw;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f05e1b87;
+}
+
+#event{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+
+#form{
+    
+    margin-top: 50px;
+    padding: 50px;
+    width: 60vw;
+    background-color: #f05e1b4a;
+}
+
+#sec1{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 25vh; */
+    padding: 20px;
+}
+
+#sec1>div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label{
+    font-size: 20px;
+    margin: 10px;
+}
+
+input{
+    height: 5vh;
+    width: 20vw;
+    border: 2px solid ;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#rules{
+    display: block;
+    margin-top: 50px;
+    /* height: 65vh; */
+    padding: 50px;
+    border: 1px solid black;
+    p{
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    li{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+#regread{
+    width: 15px;
+}
+
+#choice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    select{
+        width: 20vw;
+        height: 5vh;
+        border: 2px solid;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+}
+
+#cnf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit{
+    align-self: center;
+    color: black;
+    border: 2px solid #f05d1b;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: "Madimi One";
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #f05e1b93;
+    color: aliceblue;
+}
+
+
+#sub{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.det{
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.thank{
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: "Salsa";
+}
+
+.details{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.details2{
+    width: 10vw;
+}
+
+.detick{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation Form-CPC</title>
+    <link rel="stylesheet" href="assets/contest.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "gDGHZ-JRMrD8vl4Cb",
+            });
+        })();
+    </script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Madimi+One&family=Poetsen+One&family=Salsa&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="logo">
+        <img src="images/icon.svg" alt="">
+        <p class="name">Cuadra</p>
+    </div>
+    <div id="eventinfo">
+        <p class="name" id="event">
+            Cuadra Photography Contest
+        </p>
+        <p>
+            The Cuadra Photography Contest is an annual event celebrating the beauty of nature through the lens of
+            amateur photographers. Open to individuals aged 18 and above, this contest invites participants to submit
+            their best photographs capturing the essence of variety of themes. Participants can submit up to three
+            entries, each showcasing their creativity, composition, and technical skills. Winners stand a chance to win
+            cash prizes, with the first-place winner also earning the opportunity to showcase their work in a
+            photography exhibition. Join us in this celebration of photography and nature's wonders!
+        </p>
+    </div>
+    <div id="form">
+        <form action="" id="register">
+            <div id="sec1">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div>
+                    <label for="">Email</label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <div>
+                    <label for="pnum">Phone Number</label>
+                    <input type="tel" name="phone" id="pnum">
+                </div>
+            </div>
+            <div id="choice">
+                <select name="theme" id="theme">
+                    <option value="choose">Select a theme</option>
+                    <option value="nature">Nature</option>
+                    <option value="wildlife">Wildlife</option>
+                    <option value="village">Village</option>
+                    <option value="cities">Cities</option>
+                </select>
+            </div>
+            <div id="rules">
+                <p>Rules and Regulations</p>
+                <ol>
+                    <li>The competition is open to amateur photographers aged 18 and above.</li>
+                    <li>All photographs must adhere to the above themes.</li>
+                    <li>The deadline for submitting entries is September 30, 2024, at 11:59 PM PST.</li>
+                    <li>Photographs must be in JPEG format and minimal editing is allowed.</li>
+                    <li>Participants retain the copyright to their images but grant the competition organizers the right
+                        to use submitted images for promotional purposes.</li>
+                    <li>Entries will be judged based on creativity, composition, and technical quality.</li>
+                    <li>
+                        Prizes:
+                        <ul>
+                            <li>First place: $500 cash prize and a photography exhibition.</li>
+                            <li>Second place: $300 cash prize.</li>
+                            <li>Third place: $200 cash prize.</li>
+                            <li>4th and 5th will get consolation Prize of $50</li>
+                        </ul>
+                    </li>
+                    <li>Winners will be notified via email by October 15, 2024.</li>
+                    <li>Participants will be disqualified for submitting plagiarized or inappropriate content.</li>
+                    <li>By entering the competition, participants grant permission for the organizers to publicize
+                        winning entries and participants' names.</li>
+                    <li>The organizers are not liable for any lost or damaged entries.</li>
+                    <li>The organizers reserve the right to make changes to the rules if necessary.</li>
+                    <li>Participants must adhere to a code of conduct and submit only original photographs.</li>
+                    <li>There is no entry fee for participating in the competition.</li>
+                    <li>All entries must comply with applicable laws and regulations.</li>
+                </ol>
+                <div id="cnf">
+                    <input type="checkbox" id="regread"> I have read the Rules and Regulations .I am ready to accept the
+                    terms.
+                </div>
+            </div>
+            <div id="sub">
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </div>
+    
+</body>
+<script src="assets/contest.js"></script>
+
+</html>
+
