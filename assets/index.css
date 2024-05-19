@@ -130,7 +130,7 @@ nav {
 
 #bgimg {
     position: fixed;
-    background-image: url('bgmain1.jpg');
+    background-image: url('/images/bgmain1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     overflow-x: hidden;
@@ -164,7 +164,6 @@ nav {
 #about {
     background-color: black;
     width: 100vw;
-    height: 100vh;
     padding: 100px;
     padding-top: 0;
 }
@@ -268,7 +267,6 @@ footer{
 #contact {
     background-color: black;
     width: 100vw;
-    height: 70vh;
     display: flex;
     flex-direction: column;
 }
