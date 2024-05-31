@@ -130,7 +130,7 @@ nav {
 
 #bgimg {
     position: fixed;
-    background-image: url('bgmain1.jpg');
+    background-image: url('../images/bgmain1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     overflow-x: hidden;
